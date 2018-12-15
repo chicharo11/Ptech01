@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" >
-<link href="Estilos.css" rel="stylesheet" type="text/css">
   <head>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ptech01</title>
   </head>
   <body >
     <h1>Registro de Usuarios</h1>
-    <form class="form" action="registrarUsuario.php">
-         <input type="text" name="nombre" placeholder="Nombre Completo" required><br>
+    <form  class="form" action="registrarUsuario.php">
+         <input type="text" name="nombre" placeholder="Nombre Completo" required>
          <select name="empresa" required>
-            <option value="0">Empresa que Representa</option>
+            <option value="" disabled selected>Empresa que Representa</option>
             <option value="1">Syscom</option>
             <option value="2">Grupo Dice</option>
             <option value="3">BDO</option>
             <option value="4">Nicro Bolta</option>
-         </select><br>
-         <input type="email" name="email" placeholder="Correo Electónico" required><br>
+         </select>
+         <input type="email" name="email" placeholder="Correo Electónico" required>
          <select name="personaVisitada" required>
-            <option value="0">Persona que Visita</option>
+            <option value="" disabled selected>Persona que Visita</option>
             <option value="1">Luis Suárez</option>
             <option value="2">Angélica Anguiano</option>
             <option value="3">Verónica García</option>
             <option value="4">Arleth Ruíz</option>
-         </select><br><br>
-    <button class="boton_inicio2" type="submit">Registrar</button>
-</form>
+         </select><br>
+           <button class="boton_inicio" type="submit">Registrar</button>
+    </form>
 </body>
 </html>
