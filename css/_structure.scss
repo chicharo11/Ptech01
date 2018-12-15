@@ -1,0 +1,30 @@
+body {
+  background-image: $fondo-img;
+  background-repeat: $rep-img;
+  font-family: -apple-system, BlinkMacSystemFont,
+                "Segoe UI", Roboto, "Helvetica Neue",
+                Arial, sans-serif, "Apple Color Emoji",
+                "Segoe UI Emoji", "Segoe UI Symbol",
+                "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+}
+
+
+
+/*
+@media only screen and (min-width: 200px) {
+  form {
+    width:160px;
+    height:160px;
+    padding:10px 15px;
+    box-shadow:0 0 20px -5px #000;
+}*/
